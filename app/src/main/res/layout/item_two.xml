@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ScrollView
+        style="@android:style/Widget.Material.Light.ScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbarStyle="insideOverlay"
+        tools:context="ko.alex.phoneticchinese.MainActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="10dp">
+
+            <Button
+                android:id="@+id/server"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="buttonTapped"
+                android:text="@string/server" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/fu_yar" />
+
+            <Button
+                android:id="@+id/doyouhaveamenu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="buttonTapped"
+                android:text="@string/do_you_have_a_menu" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/yo_chai_dan_ma" />
+
+            <Button
+                android:id="@+id/hiwearereadytoorder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="buttonTapped"
+                android:text="@string/hi_we_are_ready_to_order" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/fu_oo_yuan_dian_sai" />
+
+            <Button
+                android:id="@+id/wewanttodrinktea"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="buttonTapped"
+                android:text="@string/we_want_to_drink_tea" />
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/wo_men_yow_huh_cha" />
+
+            <Button
+                android:id="@+id/abottleoficedbeerplease"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="buttonTapped"
+                android:text="@string/a_bottle_of_iced_beer_please" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/lai_y_ping_bing_pee_jeow" />
+
+            <Button
+                android:id="@+id/thebillhowmuchmoney"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="buttonTapped"
+                android:text="@string/the_bill_how_much_money" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/mai_don_dwuh_shao_chen" />
+
+            <Button
+                android:id="@+id/delicious"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="buttonTapped"
+                android:text="@string/delicious" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/hao_che" />
+
+            <Button
+                android:id="@+id/iamfull"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="buttonTapped"
+                android:text="@string/i_am_full" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/wo_chi_bow_la" />
+
+            <Button
+                android:id="@+id/sweetandsourpork"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="buttonTapped"
+                android:text="@string/sweet_and_sour_pork" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tang_su_lee_jee" />
+
+            <Button
+                android:id="@+id/kungpaochicken"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="buttonTapped"
+                android:text="@string/kung_pao_chicken" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/gong_bao_jee_diung" />
+
+            <Button
+                android:id="@+id/beanswithpork"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="buttonTapped"
+                android:text="@string/fried_beans_with_minced_pork" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/gan_bian_see_jee_dough" />
+
+            <Button
+                android:id="@+id/potatopeppereggplant"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="buttonTapped"
+                android:text="@string/fried_potato_green_pepper_and_eggplant" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/dee_san_she_ann" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
